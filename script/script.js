@@ -5,6 +5,7 @@ $('.owl-carousel').owlCarousel({
 	item:1,
 	navText:["",""],
 	margin:10,
+	autoplay: true,
 	animateIn: 'bounceInLeft',
 	animateOut: 'bounceOutRight',
 	nav:true,
@@ -19,4 +20,25 @@ $('.owl-carousel').owlCarousel({
 			items:1
 		}
 	}
+})
+
+$(function () {
+	$('.sliderTitle1').textillate({
+		loop:true,
+		autoStart: true,
+	}
+	);
+
+	$('.sliderTitle2').textillate({
+		loop:true,
+		autoStart: true,
+	}
+	);
+
+	$('.sliderTitle3').textillate({
+		loop:true,
+		autoStart: true,
+	}
+	);
+	
 })
